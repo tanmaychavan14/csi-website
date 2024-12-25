@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../Footer.js';
 
 
-function AboutUs() {
+function Team() {
 
   
 
@@ -18,6 +18,8 @@ function AboutUs() {
 
 
   return (
+    
+
     <>
     <div className="team-main">
       <h1 className='top-10vh heading'> CSI COUNCIL 2024-25</h1>
@@ -70,4 +72,4 @@ function AboutUs() {
   )
 }
 
-export default AboutUs;
+export default Team;
